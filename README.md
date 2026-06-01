@@ -10,75 +10,72 @@
 ## English
 
 ### 📌 Overview
-A web application equipped with guidebook and posting features, designed to help expatriates and residents living abroad solve various life challenges and troubles.
+A web application featuring an AI-driven guidebook and community discussion board, designed to help expatriates and residents living abroad overcome various life challenges. 
 
 ### 🔗 Link
 [GPBL Web App on Render](https://gpbl-web-app.onrender.com/)  
 *(Note: The page load may take a moment due to free-tier hosting spin-up times).*
 
 ### 🛠️ Technologies Used
+- **AI Integration:** Google Gemini API (`gemini-2.5-flash-lite`)
 - **Backend:** Python / Django
 - **Database:** SQLite
 - **Frontend:** HTML / CSS / JavaScript
 
+### 🌟 Key Features
+- **AI-Powered Guidebook (Common Issues):** Guidebook chapters are dynamically generated and updated using the Gemini API. When users post under specific tags, Gemini automatically compiles and summarizes the top-voted posts and comments into a structured, problem-solving guide.
+- **Expat Community:** A platform to post questions, share advice, and vote (Like/Dislike) on discussions. High-quality community solutions directly influence the AI-generated guidebook.
+
 ### 👥 Development Team
 - **Team Size:** 4 members
 - **Workflow:** Collaborative Development (GitHub / VS Code Live Share)
-
-### 👤 Role of `al24057`
-- Implemented the search functionality (including collaborative work via Live Share).
-- Developed backend logic using Django.
-- Proposed solutions and features based on defined problem statements.
-- Served as the lead presenter.
 
 ---
 
 ## 日本語
 
 ### 📌 概要
-海外在住者の様々な悩みの解決を目的とした、ガイドブック兼投稿機能搭載のWebアプリケーション。
+海外在住者の様々な悩みの解決を目的とした、AI要約ガイドブック兼コミュニティ掲示板を搭載したWebアプリケーション。
 
 ### 🔗 リンク
 [GPBL Web App on Render](https://gpbl-web-app.onrender.com/)  
 *(ロードに時間がかかる場合があります)*
 
 ### 🛠️ 使用技術
+- **AI機能:** Google Gemini API (`gemini-2.5-flash-lite`)
 - **バックエンド:** Python / Django
 - **データベース:** SQLite
 - **フロントエンド:** HTML / CSS / JavaScript
 
+### 🌟 主な機能
+- **AI生成ガイドブック（よくある課題）:** Gemini APIを活用し、各カテゴリのガイドブックを動的に自動生成・更新します。ユーザーが投稿すると、Geminiが評価の高い投稿やコメントを自動抽出し、具体的な解決策をまとめたガイドブックを作成します。
+- **コミュニティ掲示板:** 質問やアドバイスの投稿、および評価（Good/Bad）機能。評価の高い有益な解決策がAIガイドブックの生成ソースとなります。
+
 ### 👥 開発体制
 - **人数:** 4人
 - **開発形態:** 共同開発（GitHub / VS Code Live Share）
-
-### 👤 al24057の担当
-- 検索機能の実装（Live Share による共同作業を含む）
-- Django を用いたバックエンド開発
-- 課題定義に対する解決策や機能の提案
-- プレゼン責任者
 
 ---
 
 ## Tiếng Việt
 
 ### 📌 Tổng quan
-Ứng dụng Web tích hợp cẩm nang hướng dẫn và chức năng đăng bài viết, nhằm mục đích giải quyết các khó khăn và vướng mắc khác nhau của những người đang sinh sống và làm việc tại nước ngoài.
+Ứng dụng Web tích hợp cẩm nang hướng dẫn thông minh (AI) và diễn đàn cộng đồng, nhằm mục đích giải quyết các khó khăn và vướng mắc của những người đang sinh sống và làm việc tại nước ngoài.
 
 ### 🔗 Đường dẫn truy cập
-[GPBL Web App trên Render](https://gpbl-web-app.onrender.com/)  
+[GPBL Web App on Render](https://gpbl-web-app.onrender.com/)  
 *(Lưu ý: Trang web có thể mất một lúc để tải ban đầu do giới hạn dịch vụ hosting miễn phí).*
 
 ### 🛠️ Công nghệ sử dụng
+- **Tích hợp AI:** Google Gemini API (`gemini-2.5-flash-lite`)
 - **Backend:** Python / Django
 - **Database:** SQLite
 - **Frontend:** HTML / CSS / JavaScript
 
+### 🌟 Tính năng chính
+- **Cẩm nang thông minh bằng AI (Vấn đề thường gặp):** Các bài cẩm nang hướng dẫn được tự động biên soạn và cập nhật liên tục thông qua Gemini API. Khi có bài đăng mới thuộc chủ đề tương ứng, AI sẽ tự động phân tích và tổng hợp các câu hỏi cùng bình luận có lượt bình chọn cao nhất thành một bài hướng dẫn giải quyết vấn đề hoàn chỉnh.
+- **Cộng đồng thảo luận:** Nơi đăng câu hỏi, chia sẻ kinh nghiệm và đánh giá bài viết (Thích/Không thích). Các thảo luận chất lượng cao từ cộng đồng sẽ trực tiếp quyết định nội dung của cẩm nang AI.
+
 ### 👥 Quy mô phát triển
 - **Số lượng thành viên:** 4 người
 - **Hình thức phát triển:** Phát triển chung (GitHub / VS Code Live Share)
-
-### 👤 Vai trò của `al24057`
-- Hiện thực hóa chức năng tìm kiếm (bao gồm cả làm việc nhóm qua Live Share).
-- Phát triển phần Backend sử dụng Django.
-- Đề xuất các giải pháp và tính năng dựa trên vấn đề được định nghĩa.
-- Chịu trách nhiệm thuyết trình chính.
