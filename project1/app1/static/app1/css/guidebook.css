@@ -3,7 +3,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     line-height: 1.8;
     color: #444;
-    background-color: #f0fdf4; /* Xanh lá cây nhạt làm nền */
+    background-color: #f0fdf4;
     margin: 0;
     padding: 20px;
 }
@@ -16,17 +16,17 @@ body {
     background-color: #ffffff;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    border-top: 5px solid #6ee7b7; /* Đường viền xanh lá cây phía trên */
+    border-top: 5px solid #6ee7b7;
 }
 
 /* Tiêu đề */
 h3 {
     font-size: 2.5em;
     font-weight: 700;
-    color: #10b981; /* Xanh lá cây đậm */
+    color: #10b981;
     margin-bottom: 20px;
     text-align: center;
-    border-bottom: none; /* Bỏ đường viền cũ */
+    border-bottom: none;
     padding-bottom: 10px;
     position: relative;
 }
@@ -35,7 +35,7 @@ h3::after {
     content: '';
     width: 80px;
     height: 4px;
-    background-color: #a7f3d0; /* Xanh lá cây nhạt hơn cho đường viền */
+    background-color: #a7f3d0;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -47,15 +47,12 @@ p {
     font-size: 1.1em;
     color: #555;
     margin-bottom: 25px;
-    text-align: left; /* Căn lề trái thay vì căn đều */
+    text-align: left;
 }
 
 /* Các class hỗ trợ */
 .text-center {
     text-align: center;
-}
-.margin-top-large {
-    margin-top: 40px;
 }
 
 .back-button {
@@ -73,7 +70,7 @@ p {
     box-shadow: 0 4px 16px rgba(52, 152, 219, 0.3);
     border: none;
     cursor: pointer;
-    margin-top: none;
+    margin-top: 0;
 }
 
 .back-button:hover {
@@ -93,18 +90,18 @@ p {
 }
 
 .guidebook-image {
-text-align: center; 
-margin-bottom: 30px; 
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .guidebook-image img {
-max-width: 50%; /* Giảm kích thước tối đa để không chiếm hết chiều ngang, tạo cảm giác cân đối */
-height: auto; 
-border-radius: 12px; 
-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); 
-margin-top: 20px;
-display: block; 
-margin-left: auto;
-margin-right: auto;
-border: 2px solid #e0f7fa;
+    max-width: 50%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #e0f7fa;
 }
