@@ -766,7 +766,7 @@ hr {
     box-shadow: 0 0 0 3px rgba(39, 174, 96, 0.1), 0 6px 20px rgba(39, 174, 96, 0.15);
 }
 
-#general-search.form-input {
+.search-box-container .form-input {
     flex: 1;
     padding: 1rem 1.2rem;
     border: none;
@@ -779,13 +779,12 @@ hr {
     border-radius: 0;
 }
 
-#general-search.form-input::placeholder {
+.search-box-container .form-input::placeholder {
     color: #7f8c8d;
     font-style: italic;
 }
 
-.search-button,
-#general-search-button {
+.search-button {
     background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%);
     border: none;
     padding: 1rem 1.5rem;
@@ -799,8 +798,7 @@ hr {
     border-radius: 0;
 }
 
-.search-button::before,
-#general-search-button::before {
+.search-button::before {
     content: '';
     position: absolute;
     top: 50%;
@@ -813,25 +811,21 @@ hr {
     transform: translate(-50%, -50%);
 }
 
-.search-button:hover::before,
-#general-search-button:hover::before {
+.search-button:hover::before {
     width: 100px;
     height: 100px;
 }
 
-.search-button:hover,
-#general-search-button:hover {
+.search-button:hover {
     background: linear-gradient(135deg, #229954 0%, #27ae60 100%);
     transform: translateX(2px);
 }
 
-.search-button:active,
-#general-search-button:active {
+.search-button:active {
     transform: translateX(1px) scale(0.98);
 }
 
-.search-button i,
-#general-search-button i {
+.search-button i {
     color: #ffffff;
     font-size: 1.1rem;
     z-index: 1;
@@ -839,22 +833,11 @@ hr {
     transition: all 0.3s ease;
 }
 
-.search-button:hover i,
-#general-search-button:hover i {
+.search-button:hover i {
     transform: scale(1.1);
 }
 
-/* Override Bootstrap styles nếu có */
-.btn-primary.search-button,
-#general-search-button.btn-primary {
-    background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%) !important;
-    border: none !important;
-}
 
-.btn-primary.search-button:hover,
-#general-search-button.btn-primary:hover {
-    background: linear-gradient(135deg, #229954 0%, #27ae60 100%) !important;
-}
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -921,18 +904,16 @@ hr {
         border-radius: 10px;
     }
 
-    #general-search.form-input {
+    .search-box-container .form-input {
         padding: 0.9rem 1rem;
         font-size: 0.95rem;
     }
 
-    .search-button,
-    #general-search-button {
+    .search-button {
         padding: 0.9rem 1.2rem;
     }
 
-    .search-button i,
-    #general-search-button i {
+    .search-button i {
         font-size: 1rem;
     }
 }
